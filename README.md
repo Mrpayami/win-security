@@ -1,3 +1,12 @@
+__          ___        _____                      _ _         
+\ \        / (_)      / ____|                    (_) |        
+ \ \  /\  / / _ _ __ | (___   ___  ___ _   _ _ __ _| |_ _   _ 
+  \ \/  \/ / | | '_ \ \___ \ / _ \/ __| | | | '__| | __| | | |
+   \  /\  /  | | | | |____) |  __/ (__| |_| | |  | | |_| |_| |
+    \/  \/   |_|_| |_|_____/ \___|\___|\__,_|_|  |_|\__|\__, |
+                                                         __/ |
+                                                        |___/ 
+
 # windows-security
 # Explanations about the function of the program in brief
 
@@ -5,6 +14,7 @@
 This loop is repeated and if he logs in again and if the folder does not exist, he locks it again until the folder exists.
 The command to run the bat file is executed in secret without displaying it on the screen
 
+### copy run_hidden.vbs in shell:startup and edit Files and add check_folder.bat location in .vbs files
 ### dotnet-figlet
 #### .NET global tool to convert in a figlet representation the given text.
 
@@ -156,4 +166,4 @@ This script is a Windows batch file that continuously checks for the existence o
 ### Important Note:
 To run scripts like this, you'll need appropriate permissions, and it’s important to ensure you understand the implications of locking the workstation in an automated manner.
 
-## copy run_hidden.vbs in shell:startup and edit Files and add check_folder.bat location in .vbs files
+
