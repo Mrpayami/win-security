@@ -1,19 +1,5 @@
-```batch
-                                                                                                                                                                                                             
- _    _ _       _____                      _ _         
-| |  | (_)     /  ___|                    (_) |        
-| |  | |_ _ __ \ `--.  ___  ___ _   _ _ __ _| |_ _   _ 
-| |/\| | | '_ \ `--. \/ _ \/ __| | | | '__| | __| | | |
-\  /\  / | | | /\__/ /  __/ (__| |_| | |  | | |_| |_| |
- \/  \/|_|_| |_\____/ \___|\___|\__,_|_|  |_|\__|\__, |
-                                                  __/ |
-                                                 |___/ 
-            
-```                                                                                                                                                                                                                     
-                                                                                                                                                                                                                     
+# windows-security 
 
-
-# windows-security #
 # Explanations about the function of the program in brief
 
 ## When the user enters Windows and logs in, this program has 20 seconds to create a folder with the name sec in Windows document, and when it could not create it, Windows goes into lock mode, otherwise, it is free and can do its activities inside Windows.
